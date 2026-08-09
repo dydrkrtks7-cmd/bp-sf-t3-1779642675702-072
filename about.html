@@ -1,452 +1,450 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <meta name="description" content="강남 셔츠룸 마포 성우이벤트의 정밀한 시스템과 전문 성우 매칭 서비스를 상세히 소개합니다. 프리미엄 비즈니스 자리와 특별한 이벤트를 위한 완벽한 정보를 제공합니다. 010-6279-0862">
-    <meta name="keywords" content="강남 셔츠룸, 마포 성우이벤트, 성우 매칭, 이벤트 성우, 프리미엄 셔츠룸, 강남 이벤트, 마포 행사, 셔츠룸 정보">
-    <meta property="og:title" content="강남 셔츠룸 마포 성우이벤트 | 프리미엄 매칭 서비스 정보">
-    <meta property="og:description" content="강남 셔츠룸 마포 성우이벤트의 정밀한 시스템과 전문 성우 매칭 서비스를 상세히 소개합니다. 프리미엄 비즈니스 자리와 특별한 이벤트를 위한 완벽한 정보를 제공합니다. 010-6279-0862">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sangsu-coin-karaoke-note.infonest.online/about.html">
-    <title>강남 셔츠룸 마포 성우이벤트 | 프리미엄 매칭 서비스 정보</title>
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #faf7f2;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        header {
-            background: #2c2c2c;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 24px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #d4a853;
-            text-decoration: none;
-            letter-spacing: -0.5px;
-        }
-        .logo span {
-            color: #f5f5f0;
-        }
-        nav {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-        }
-        nav a {
-            color: #e0ddd5;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.2s ease;
-            letter-spacing: 0.3px;
-        }
-        nav a:hover {
-            color: #d4a853;
-        }
-        .nav-cta {
-            background: #d4a853;
-            color: #1a1a1a !important;
-            padding: 8px 20px;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: background 0.2s ease;
-        }
-        .nav-cta:hover {
-            background: #c49a3f;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-        }
-        .hamburger span {
-            width: 26px;
-            height: 2px;
-            background: #e0ddd5;
-            border-radius: 2px;
-            transition: 0.3s;
-        }
-        .mobil {
-            display: none;
-        }
-        @media (max-width: 768px) {
-            nav {
-                display: none;
-                flex-direction: column;
-                background: #2c2c2c;
-                position: absolute;
-                top: 60px;
-                left: 0;
-                right: 0;
-                padding: 20px;
-                gap: 16px;
-            }
-            nav.active {
-                display: flex;
-            }
-            .hamburger {
-                display: flex;
-            }
-            .header-inner {
-                padding: 12px 16px;
-            }
-            .logo {
-                font-size: 1.2rem;
-            }
-        }
-        .tel-link {
-            color: #d4a853;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .tel-link:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding-top: 100px;
-            padding-bottom: 80px;
-        }
-        .info-hero {
-            background: linear-gradient(135deg, #2c2c2c 0%, #3a3a3a 100%);
-            color: #f5f5f0;
-            padding: 60px 0;
-            margin-bottom: 60px;
-            border-radius: 0 0 24px 24px;
-        }
-        .info-hero h1 {
-            font-size: 2.8rem;
-            font-weight: 700;
-            letter-spacing: -1px;
-            line-height: 1.2;
-            margin-bottom: 20px;
-        }
-        .info-hero h1 em {
-            color: #d4a853;
-            font-style: normal;
-        }
-        .info-hero p {
-            font-size: 1.1rem;
-            color: #c4c0b8;
-            max-width: 700px;
-            line-height: 1.7;
-        }
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            margin-bottom: 60px;
-        }
-        @media (max-width: 768px) {
-            .info-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            .info-hero h1 {
-                font-size: 2rem;
-            }
-        }
-        .info-card {
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 36px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-            border: 1px solid #e8e4dc;
-        }
-        .info-card h2 {
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
-            border-bottom: 2px solid #d4a853;
-        }
-        .info-card h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #2c2c2c;
-            margin-top: 20px;
-            margin-bottom: 8px;
-        }
-        .info-card p {
-            color: #4a4a4a;
-            font-size: 0.95rem;
-            line-height: 1.7;
-            margin-bottom: 12px;
-        }
-        .info-card ul {
-            list-style: none;
-            padding: 0;
-        }
-        .info-card ul li {
-            padding: 8px 0;
-            padding-left: 24px;
-            position: relative;
-            color: #4a4a4a;
-            font-size: 0.95rem;
-        }
-        .info-card ul li::before {
-            content: "▸";
-            position: absolute;
-            left: 0;
-            color: #d4a853;
-            font-weight: 700;
-        }
-        .info-stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-            margin-bottom: 60px;
-        }
-        @media (max-width: 768px) {
-            .info-stats {
-                grid-template-columns: 1fr;
-                gap: 16px;
-            }
-        }
-        .stat-item {
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 28px;
-            text-align: center;
-            border: 1px solid #e8e4dc;
-        }
-        .stat-item .number {
-            font-size: 2.4rem;
-            font-weight: 700;
-            color: #d4a853;
-            display: block;
-            margin-bottom: 6px;
-        }
-        .stat-item .label {
-            font-size: 0.9rem;
-            color: #6a6a6a;
-            font-weight: 500;
-        }
-        .faq-section {
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 40px;
-            border: 1px solid #e8e4dc;
-            margin-bottom: 40px;
-        }
-        .faq-section h2 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            margin-bottom: 28px;
-            color: #1a1a1a;
-        }
-        .faq-item {
-            border-bottom: 1px solid #ece8e0;
-            padding: 18px 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-item h3 {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #2c2c2c;
-            margin-bottom: 8px;
-            cursor: pointer;
-        }
-        .faq-item p {
-            color: #5a5a5a;
-            font-size: 0.92rem;
-            line-height: 1.6;
-        }
-        .cta-box {
-            background: linear-gradient(135deg, #2c2c2c 0%, #3a3a3a 100%);
-            color: #f5f5f0;
-            border-radius: 16px;
-            padding: 48px;
-            text-align: center;
-            margin-top: 40px;
-        }
-        .cta-box h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .cta-box p {
-            color: #c4c0b8;
-            margin-bottom: 24px;
-            font-size: 1rem;
-        }
-        .cta-button {
-            display: inline-block;
-            background: #d4a853;
-            color: #1a1a1a;
-            padding: 14px 40px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: background 0.2s ease;
-        }
-        .cta-button:hover {
-            background: #c49a3f;
-        }
-        footer {
-            background: #2c2c2c;
-            color: #a09c94;
-            padding: 40px 0;
-            text-align: center;
-            font-size: 0.85rem;
-            margin-top: 40px;
-        }
-        footer a {
-            color: #d4a853;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
-  <link rel="canonical" href="https://sangsu-coin-karaoke-note.infonest.online/about.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="강남 셔츠룸 마포 성우이벤트의 정밀한 시스템과 전문 성우 매칭 서비스를 상세히 소개합니다. 프리미엄 비즈니스 자리와 특별한 이벤트를 위한 완벽한 정보를 제공합니다.">
+ <meta name="keywords" content="강남 셔츠룸, 마포 성우이벤트, 성우 매칭, 이벤트 성우, 프리미엄 셔츠룸, 강남 이벤트, 마포 행사, 셔츠룸 정보">
+ <meta property="og:title" content="강남 셔츠룸 마포 성우이벤트 | 프리미엄 매칭 서비스 정보">
+ <meta property="og:description" content="강남 셔츠룸 마포 성우이벤트의 정밀한 시스템과 전문 성우 매칭 서비스를 상세히 소개합니다. 프리미엄 비즈니스 자리와 특별한 이벤트를 위한 완벽한 정보를 제공합니다.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sangsu-coin-karaoke-note.infonest.online/about.html">
+ <title>강남 셔츠룸 마포 성우이벤트 | 프리미엄 매칭 서비스 정보</title>
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+ background: #faf7f2;
+ color: #1a1a1a;
+ line-height: 1.6;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ header {
+ background: #2c2c2c;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 1000;
+ box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+ }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px 24px;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+ .logo {
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #d4a853;
+ text-decoration: none;
+ letter-spacing: -0.5px;
+ }
+ .logo span {
+ color: #f5f5f0;
+ }
+ nav {
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+ nav a {
+ color: #e0ddd5;
+ text-decoration: none;
+ font-size: 0.9rem;
+ font-weight: 500;
+ transition: color 0.2s ease;
+ letter-spacing: 0.3px;
+ }
+ nav a:hover {
+ color: #d4a853;
+ }
+ .nav-cta {
+ background: #d4a853;
+ color: #1a1a1a !important;
+ padding: 8px 20px;
+ border-radius: 6px;
+ font-weight: 600;
+ transition: background 0.2s ease;
+ }
+ .nav-cta:hover {
+ background: #c49a3f;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ }
+ .hamburger span {
+ width: 26px;
+ height: 2px;
+ background: #e0ddd5;
+ border-radius: 2px;
+ transition: 0.3s;
+ }
+ .mobil {
+ display: none;
+ }
+ @media (max-width: 768px) {
+ nav {
+ display: none;
+ flex-direction: column;
+ background: #2c2c2c;
+ position: absolute;
+ top: 60px;
+ left: 0;
+ right: 0;
+ padding: 20px;
+ gap: 16px;
+ }
+ nav.active {
+ display: flex;
+ }
+ .hamburger {
+ display: flex;
+ }
+ .header-inner {
+ padding: 12px 16px;
+ }
+ .logo {
+ font-size: 1.2rem;
+ }
+ }
+ .tel-link {
+ color: #d4a853;
+ font-weight: 600;
+ text-decoration: none;
+ }
+ .tel-link:hover {
+ text-decoration: underline;
+ }
+ main {
+ padding-top: 100px;
+ padding-bottom: 80px;
+ }
+ .info-hero {
+ background: linear-gradient(135deg, #2c2c2c 0%, #3a3a3a 100%);
+ color: #f5f5f0;
+ padding: 60px 0;
+ margin-bottom: 60px;
+ border-radius: 0 0 24px 24px;
+ }
+ .info-hero h1 {
+ font-size: 2.8rem;
+ font-weight: 700;
+ letter-spacing: -1px;
+ line-height: 1.2;
+ margin-bottom: 20px;
+ }
+ .info-hero h1 em {
+ color: #d4a853;
+ font-style: normal;
+ }
+ .info-hero p {
+ font-size: 1.1rem;
+ color: #c4c0b8;
+ max-width: 700px;
+ line-height: 1.7;
+ }
+ .info-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 40px;
+ margin-bottom: 60px;
+ }
+ @media (max-width: 768px) {
+ .info-grid {
+ grid-template-columns: 1fr;
+ gap: 30px;
+ }
+ .info-hero h1 {
+ font-size: 2rem;
+ }
+ }
+ .info-card {
+ background: #ffffff;
+ border-radius: 16px;
+ padding: 36px;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+ border: 1px solid #e8e4dc;
+ }
+ .info-card h2 {
+ font-size: 1.4rem;
+ font-weight: 600;
+ color: #1a1a1a;
+ margin-bottom: 16px;
+ padding-bottom: 12px;
+ border-bottom: 2px solid #d4a853;
+ }
+ .info-card h3 {
+ font-size: 1.1rem;
+ font-weight: 600;
+ color: #2c2c2c;
+ margin-top: 20px;
+ margin-bottom: 8px;
+ }
+ .info-card p {
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ line-height: 1.7;
+ margin-bottom: 12px;
+ }
+ .info-card ul {
+ list-style: none;
+ padding: 0;
+ }
+ .info-card ul li {
+ padding: 8px 0;
+ padding-left: 24px;
+ position: relative;
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ }
+ .info-card ul li::before {
+ content: "▸";
+ position: absolute;
+ left: 0;
+ color: #d4a853;
+ font-weight: 700;
+ }
+ .info-stats {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 24px;
+ margin-bottom: 60px;
+ }
+ @media (max-width: 768px) {
+ .info-stats {
+ grid-template-columns: 1fr;
+ gap: 16px;
+ }
+ }
+ .stat-item {
+ background: #ffffff;
+ border-radius: 12px;
+ padding: 28px;
+ text-align: center;
+ border: 1px solid #e8e4dc;
+ }
+ .stat-item .number {
+ font-size: 2.4rem;
+ font-weight: 700;
+ color: #d4a853;
+ display: block;
+ margin-bottom: 6px;
+ }
+ .stat-item .label {
+ font-size: 0.9rem;
+ color: #6a6a6a;
+ font-weight: 500;
+ }
+ .faq-section {
+ background: #ffffff;
+ border-radius: 16px;
+ padding: 40px;
+ border: 1px solid #e8e4dc;
+ margin-bottom: 40px;
+ }
+ .faq-section h2 {
+ font-size: 1.6rem;
+ font-weight: 600;
+ margin-bottom: 28px;
+ color: #1a1a1a;
+ }
+ .faq-item {
+ border-bottom: 1px solid #ece8e0;
+ padding: 18px 0;
+ }
+ .faq-item:last-child {
+ border-bottom: none;
+ }
+ .faq-item h3 {
+ font-size: 1rem;
+ font-weight: 600;
+ color: #2c2c2c;
+ margin-bottom: 8px;
+ cursor: pointer;
+ }
+ .faq-item p {
+ color: #5a5a5a;
+ font-size: 0.92rem;
+ line-height: 1.6;
+ }
+ .cta-box {
+ background: linear-gradient(135deg, #2c2c2c 0%, #3a3a3a 100%);
+ color: #f5f5f0;
+ border-radius: 16px;
+ padding: 48px;
+ text-align: center;
+ margin-top: 40px;
+ }
+ .cta-box h2 {
+ font-size: 1.8rem;
+ font-weight: 600;
+ margin-bottom: 12px;
+ }
+ .cta-box p {
+ color: #c4c0b8;
+ margin-bottom: 24px;
+ font-size: 1rem;
+ }
+ .cta-button {
+ display: inline-block;
+ background: #d4a853;
+ color: #1a1a1a;
+ padding: 14px 40px;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 1rem;
+ transition: background 0.2s ease;
+ }
+ .cta-button:hover {
+ background: #c49a3f;
+ }
+ footer {
+ background: #2c2c2c;
+ color: #a09c94;
+ padding: 40px 0;
+ text-align: center;
+ font-size: 0.85rem;
+ margin-top: 40px;
+ }
+ footer a {
+ color: #d4a853;
+ text-decoration: none;
+ }
+ footer a:hover {
+ text-decoration: underline;
+ }
+ </style>
+ <link rel="canonical" href="https://sangsu-coin-karaoke-note.infonest.online/about.html">
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="header-inner">
-            <a href="/" class="logo">M<span>ATE</span></a>
-            <nav class="mobil">
-                <a href="/">홈</a>
-                <a href="/info">정보</a>
-                <a href="/service">서비스</a>
-                <a href="/contact">문의</a>
-                <a href="tel:01062790862" class="nav-cta">010-6279-0862</a>
-            </nav>
-            <div class="hamburger" onclick="document.querySelector('nav').classList.toggle('active')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
+ <header>
+ <div class="header-inner">
+ <a href="/" class="logo">M<span>ATE</span></a>
+ <nav class="mobil">
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/service">서비스</a>
+ <a href="/contact">문의</a>
+ 
+ </nav>
+ <div class="hamburger" onclick="document.querySelector('nav').classList.toggle('active')">
+ 
+ 
+ 
+ </div>
+ </div>
+ </header>
 
 <main>
-    <section class="info-hero">
-        <div class="container">
-            <h1>강남 셔츠룸 마포 성우이벤트 이용 안내</h1>
-            <p>강남 셔츠룸과 마포 성우이벤트를 함께 살펴보는 이용자를 위해 예약 절차, 운영 방식, 자주 묻는 질문을 정리했다. 아래 정보를 참고하면 문의 전 준비가 한결 수월하다.</p>
-        </div>
-    </section>
+ <section class="info-hero">
+ <div class="container">
+ <h1>강남 셔츠룸 마포 성우이벤트 이용 안내</h1>
+ <p>강남 셔츠룸과 마포 성우이벤트를 함께 살펴보는 이용자를 위해 예약 절차, 운영 방식, 자주 묻는 질문을 정리했다. 아래 정보를 참고하면 문의 전 준비가 한결 수월하다.</p>
+ </div>
+ </section>
 
-    <div class="container">
-        <div class="info-stats">
-            <div class="stat-item">
-                <span class="number">문의 시점 기준</span>
-                <span class="label">예약 가능 여부</span>
-            </div>
-            <div class="stat-item">
-                <span class="number">상담 후 안내</span>
-                <span class="label">이용 비용</span>
-            </div>
-            <div class="stat-item">
-                <span class="number">사전 조율</span>
-                <span class="label">인원 구성</span>
-            </div>
-        </div>
+ <div class="container">
+ <div class="info-stats">
+ <div class="stat-item">
+ <span class="number">문의 시점 기준</span>
+ <span class="label">예약 가능 여부</span>
+ </div>
+ <div class="stat-item">
+ <span class="number">상담 후 안내</span>
+ <span class="label">이용 비용</span>
+ </div>
+ <div class="stat-item">
+ <span class="number">사전 조율</span>
+ <span class="label">인원 구성</span>
+ </div>
+ </div>
 
-        <div class="info-grid">
-            <div class="info-card">
-                <h2>이용 절차</h2>
-                <p>전화 문의로 희망 일정과 인원을 전달한 뒤, 담당자와 세부 사항을 조율하는 순서로 진행된다. 원하는 날짜와 시간대를 미리 정리해두면 상담이 빨라진다.</p>
-                <h3>확인 순서</h3>
-                <ul>
-                    <li>전화 문의 및 일정 확인</li>
-                    <li>인원과 요청 사항 전달</li>
-                    <li>세부 구성 상담</li>
-                    <li>예약 확정 안내</li>
-                </ul>
-            </div>
-            <div class="info-card">
-                <h2>성우이벤트 안내</h2>
-                <p>성우이벤트는 상시 운영되는 프로그램이 아니라 별도 일정에 따라 공지되는 방식으로 진행된다. 참여를 원한다면 진행 여부와 시간을 문의 시점에 확인하는 것이 정확하다.</p>
-                <h3>확인할 사항</h3>
-                <ul>
-                    <li>진행 일정 공지 여부</li>
-                    <li>참여 가능 인원</li>
-                    <li>사전 예약 필요 여부</li>
-                </ul>
-            </div>
-            <div class="info-card">
-                <h2>결제 및 취소 안내</h2>
-                <p>결제 방식과 예약 변경·취소 기준은 예약 확정 단계에서 함께 안내된다. 일정 조율이 필요한 경우 가능한 한 미리 연락하는 편이 원활하다.</p>
-                <h3>확인할 사항</h3>
-                <ul>
-                    <li>결제 방식(현장 결제 등)</li>
-                    <li>예약 변경 및 취소 기준</li>
-                    <li>인원 변경 시 연락 시점</li>
-                </ul>
-            </div>
-        </div>
+ <div class="info-grid">
+ <div class="info-card">
+ <h2>이용 절차</h2>
+ <p>전화 문의로 희망 일정과 인원을 전달한 뒤, 담당자와 세부 사항을 조율하는 순서로 진행된다. 원하는 날짜와 시간대를 미리 정리해두면 상담이 빨라진다.</p>
+ <h3>확인 순서</h3>
+ <ul>
+ <li>전화 문의 및 일정 확인</li>
+ <li>인원과 요청 사항 전달</li>
+ <li>세부 구성 상담</li>
+ <li>예약 확정 안내</li>
+ </ul>
+ </div>
+ <div class="info-card">
+ <h2>성우이벤트 안내</h2>
+ <p>성우이벤트는 상시 운영되는 프로그램이 아니라 별도 일정에 따라 공지되는 방식으로 진행된다. 참여를 원한다면 진행 여부와 시간을 문의 시점에 확인하는 것이 정확하다.</p>
+ <h3>확인할 사항</h3>
+ <ul>
+ <li>진행 일정 공지 여부</li>
+ <li>참여 가능 인원</li>
+ <li>사전 예약 필요 여부</li>
+ </ul>
+ </div>
+ <div class="info-card">
+ <h2>결제 및 취소 안내</h2>
+ <p>결제 방식과 예약 변경·취소 기준은 예약 확정 단계에서 함께 안내된다. 일정 조율이 필요한 경우 가능한 한 미리 연락하는 편이 원활하다.</p>
+ <h3>확인할 사항</h3>
+ <ul>
+ <li>결제 방식(현장 결제 등)</li>
+ <li>예약 변경 및 취소 기준</li>
+ <li>인원 변경 시 연락 시점</li>
+ </ul>
+ </div>
+ </div>
 
-        <section class="faq-section">
-            <h2>자주 묻는 질문</h2>
-            <div class="faq-item">
-                <h3>당일 예약도 가능한가요?</h3>
-                <p>일정에 여유가 있으면 당일 문의도 받을 수 있으나, 인원과 시간대에 따라 조율이 필요할 수 있어 미리 연락하는 편이 안전하다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>성우이벤트는 매번 진행되나요?</h3>
-                <p>상시 프로그램이 아니라 별도 공지에 따라 진행되므로, 참여를 원한다면 문의 시 일정을 함께 확인하는 것이 좋다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>비용은 어떻게 산정되나요?</h3>
-                <p>인원, 이용 시간, 요청 사항에 따라 구성이 달라지므로 정해진 금액표보다는 상담을 통해 개별적으로 안내된다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>지역과 접근성은 어떤가요?</h3>
-                <p>마포 권역에 위치해 있으며, 대중교통과 주차 여건은 방문 전 담당자에게 문의해 확인하는 것을 권장한다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>단체로도 이용할 수 있나요?</h3>
-                <p>인원 규모에 따라 공간 구성이 달라질 수 있어, 단체 이용을 원한다면 희망 인원을 미리 전달하고 가능 여부를 확인하는 것이 좋다.</p>
-            </div>
-        </section>
+ <section class="faq-section">
+ <h2>자주 묻는 질문</h2>
+ <div class="faq-item">
+ <h3>당일 예약도 가능한가요?</h3>
+ <p>일정에 여유가 있으면 당일 문의도 받을 수 있으나, 인원과 시간대에 따라 조율이 필요할 수 있어 미리 연락하는 편이 안전하다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>성우이벤트는 매번 진행되나요?</h3>
+ <p>상시 프로그램이 아니라 별도 공지에 따라 진행되므로, 참여를 원한다면 문의 시 일정을 함께 확인하는 것이 좋다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>비용은 어떻게 산정되나요?</h3>
+ <p>인원, 이용 시간, 요청 사항에 따라 구성이 달라지므로 정해진 금액표보다는 상담을 통해 개별적으로 안내된다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>지역과 접근성은 어떤가요?</h3>
+ <p>마포 권역에 위치해 있으며, 대중교통과 주차 여건은 방문 전 담당자에게 문의해 확인하는 것을 권장한다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>단체로도 이용할 수 있나요?</h3>
+ <p>인원 규모에 따라 공간 구성이 달라질 수 있어, 단체 이용을 원한다면 희망 인원을 미리 전달하고 가능 여부를 확인하는 것이 좋다.</p>
+ </div>
+ </section>
 
-        <div class="cta-box">
-            <h2>문의 및 상담</h2>
-            <p>정확한 일정과 이용 조건은 전화 상담을 통해 확인할 수 있다.</p>
-            <a class="cta-button" href="tel:01062790862">01062790862</a>
-        </div>
-    </div>
+ <div class="cta-box">
+ <h2>문의 및 상담</h2>
+ <p>정확한 일정과 이용 조건은 전화 상담을 통해 확인할 수 있다.</p>
+ 
+ </div>
+ </div>
 </main>
 
 
