@@ -16,6 +16,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://sangsu-coin-karaoke-note.infonest.online/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sangsu-coin-karaoke-note.infonest.online/posts/field_note-002-m9sz2s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -52,11 +57,6 @@
   </url>
   <url>
     <loc>https://sangsu-coin-karaoke-note.infonest.online/posts/interview-002-w68by1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-coin-karaoke-note.infonest.online/posts.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
